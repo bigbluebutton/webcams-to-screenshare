@@ -14,9 +14,9 @@ This project explores compositing the video streams outside of Kurento.  This pr
 
 In this prototype, Chrome runs within Docker container and can run on a different server.  When run, chrome is controled using selenium, loads the BigBlueButton, and does the following: 
 
-  # hides the User list and presentation (the screen becomes a grid of the webcams)
-  # takes presenter control, and
-  # begin desktop sharing.
+  1. hides the User list and presentation (the screen becomes a grid of the webcams)
+  1. takes presenter control, and
+  1. begins screen sharing.
 
 Once it starts, the presentation area for other users then displays a grid of webcams.
 
